@@ -1,0 +1,21 @@
+The Smart Contract is stored under its own address.
+
+The Smart Contract can store an address in the variable "myAddress", which can be its own address, but can be any other
+address as well.
+
+All information on the blochain is public, so we can retrieve the balance of the address stored in the variable "myAddress"
+
+The Smart Contract can transfer funds from his own address to another address. But it cannot transfer the funds from another
+address.
+
+Transferring Ether is fundamentally different than transferring ERC20 Tokens.
+
+Natively, there are no String manipulation functions.
+
+No even string comparison is natively possible.
+
+There are libraries to work with Strings.
+
+Strings are expensive to store and work with in Solidity.
+
+Avoid storing Strings, use Events instead.
